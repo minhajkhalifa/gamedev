@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9136bd8df9d8a4347b86f2af6371df6c
+timeCreated: 1519683932
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SF Arch Rival
+  fontNames:
+  - SF Arch Rival
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3c8a5ae61c36fa547a8f52286f039b30, type: 3}
+  - {fileID: 12800000, guid: 1eda309a4c0da3f45aa492a494865c2f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
