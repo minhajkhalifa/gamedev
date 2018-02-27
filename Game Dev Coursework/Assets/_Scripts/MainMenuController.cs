@@ -12,7 +12,7 @@ public class MainMenuController : MonoBehaviour {
 
     public void ButtonHandlerHelp()
     {
-
+        SceneManager.LoadSceneAsync(Globals.HELP_SCENE);
     }
 
     public void ButtonHandlerExit()
