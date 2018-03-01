@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/Menu.unity
+- path: Assets/Assets/race-track-lake/race_track_lake.unity
   isLoaded: 1
   isActive: 1

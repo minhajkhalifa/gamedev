@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 471}
-  m_MaxSize: {x: 14002, y: 14021}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 241
+  controlID: 382
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 953
     height: 635
-  m_MinSize: {x: 406, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 242
+  controlID: 358
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 243
+  controlID: 359
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,7 +203,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000
+    m_ExpandedIDs: 32b5ffff0ec8ffffc4dfffff68e7ffffa6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -279,14 +279,14 @@ MonoBehaviour:
     width: 656
     height: 343
   m_SceneLighting: 1
-  lastFramingTime: 7393.800587596329
+  lastFramingTime: 3747.446253752662
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 328, y: 163, z: 0}
+    m_Target: {x: 1.2392933, y: 68.66709, z: -287.4344}
     speed: 2
-    m_Value: {x: 328, y: 163, z: 0}
+    m_Value: {x: 1.2392933, y: 68.66709, z: -287.4344}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -301,21 +301,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: -0, y: 0, z: -0, w: -1}
+    m_Target: {x: -0.12109007, y: -0.21992888, z: 0.027523737, w: -0.96757996}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: -0.12109007, y: -0.21992888, z: 0.027523737, w: -0.96757996}
   m_Size:
-    m_Target: 365.0915
+    m_Target: 93.31834
     speed: 2
-    m_Value: 365.0915
+    m_Value: 93.31834
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -345,8 +345,8 @@ MonoBehaviour:
     y: 364
     width: 953
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -391,19 +391,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Assets
+    - Assets/Assets/race-track-lake
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Assets
+  - Assets/Assets/race-track-lake
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\minhaj\Documents\GitHub\gamedev\Game Dev Coursework
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c270000
-    m_LastClickedID: 10092
-    m_ExpandedIDs: 000000002a27000030270000482700006c270000a027000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 23}
+    m_SelectedIDs: 562b0000
+    m_LastClickedID: 11094
+    m_ExpandedIDs: 00000000282700002e270000462700006a2700009e270000562b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -431,7 +431,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a27000030270000482700006c270000a027000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000282700002e270000462700006a2700009e27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fc2c0000742a000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
