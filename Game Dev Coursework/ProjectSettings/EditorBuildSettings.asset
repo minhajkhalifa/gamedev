@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/_Scenes/Help.unity
     guid: c255a993a1d609743be2736cfe325761
   - enabled: 1
+    path: Assets/_Scenes/CarSelection.unity
+    guid: ac445b7a452273f4fb4557eb5877efe1
+  - enabled: 1
     path: Assets/_Scenes/Game.unity
     guid: c41a04ab3be736d49a312bef68dbae03

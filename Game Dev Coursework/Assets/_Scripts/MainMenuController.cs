@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour {
 
+    public AudioSource audio;
+
+    public void OnMouseEnter()
+    {
+        audio.Play();
+    }
+
     public void ButtonHandlerPlay()
     {
-        SceneManager.LoadSceneAsync(Globals.GAME_SCENE);
+        SceneManager.LoadSceneAsync(Globals.CAR_SELECTION_SCENE);
     }
 
     public void ButtonHandlerHelp()
