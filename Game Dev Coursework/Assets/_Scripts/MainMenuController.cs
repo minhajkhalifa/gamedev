@@ -14,12 +14,22 @@ public class MainMenuController : MonoBehaviour {
 
     public void ButtonHandlerPlay()
     {
-        SceneManager.LoadSceneAsync(Globals.CAR_SELECTION_SCENE);
+        SceneManager.LoadSceneAsync(Globals.PLAYER_TYPE_SCENE);
     }
 
     public void ButtonHandlerHelp()
     {
         SceneManager.LoadSceneAsync(Globals.HELP_SCENE);
+    }
+
+    public void ButtonHandlerSinglePlayer()
+    {
+        SceneManager.LoadSceneAsync(Globals.CAR_SELECTION_SCENE);
+    }
+
+    public void ButtonHandlerMultiPlayer()
+    {
+        //TODO;
     }
 
     public void ButtonHandlerExit()

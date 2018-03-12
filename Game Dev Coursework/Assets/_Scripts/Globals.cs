@@ -7,4 +7,5 @@ public class Globals : MonoBehaviour {
     public const string CAR_SELECTION_SCENE = "CarSelection";
     public const string GAME_SCENE = "Game";
     public const string HELP_SCENE = "Help";
+    public const string PLAYER_TYPE_SCENE = "PlayerTypeMenu";
 }
