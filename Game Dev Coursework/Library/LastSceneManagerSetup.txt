@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/CarSelection.unity
+- path: Assets/_Scenes/RaceTrack.unity
   isLoaded: 1
   isActive: 1
