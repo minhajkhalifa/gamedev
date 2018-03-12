@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 635
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 364
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 65
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 763
     height: 364
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -253,8 +253,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -365,9 +365,9 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000
+    m_SelectedIDs: 78bdffff
+    m_LastClickedID: -17032
+    m_ExpandedIDs: 7abdffff7cbdffff5abeffffc8bfffff5cc1ffffd6c6ffffa6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,14 +417,14 @@ MonoBehaviour:
     width: 759
     height: 343
   m_SceneLighting: 1
-  lastFramingTime: 15787.020281961431
+  lastFramingTime: 97.46449780057084
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.9295039, y: 0.6165384, z: -10.868755}
+    m_Target: {x: -0.44793975, y: 1.011206, z: -11.342625}
     speed: 2
-    m_Value: {x: -0.9295039, y: 0.6165384, z: -10.868755}
+    m_Value: {x: -0.44793975, y: 1.011206, z: -11.342625}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -447,13 +447,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.1468965, y: 0.80221397, z: -0.22020438, w: -0.5351488}
+    m_Target: {x: 0.16401294, y: -0.6730025, z: 0.15679604, w: 0.70397615}
     speed: 2
-    m_Value: {x: -0.1468965, y: 0.80221397, z: -0.22020438, w: -0.5351488}
+    m_Value: {x: 0.16401294, y: -0.6730025, z: 0.15679604, w: 0.70397615}
   m_Size:
-    m_Target: 4.404853
+    m_Target: 4.0166283
     speed: 2
-    m_Value: 4.404853
+    m_Value: 4.0166283
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -503,19 +503,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/_Scripts
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets
+  - Assets/_Scripts
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\minhaj\Documents\GitHub\gamedev\Game Dev Coursework
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 72270000
-    m_LastClickedID: 10098
-    m_ExpandedIDs: 000000007227000086270000d2270000de270000fe27000036280000ba28000032290000622900006e290000922900008a2a0000b62a0000e02a0000302b0000442b0000802b00008e2b0000682c0000862c000006300000083000000a3000000c30000000ca9a3bffffff7f
+    m_SelectedIDs: 2c290000
+    m_LastClickedID: 10540
+    m_ExpandedIDs: 00000000342700008827000090270000ac270000b2270000222800008c280000a228000014290000302900008c290000b82900001e2a00005e2c0000602c0000622c0000642c0000662c0000682c00006a2c00006c2c00006e2c0000702c0000722c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -543,7 +543,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007227000086270000d2270000de270000fe27000036280000ba28000032290000622900006e290000922900008a2a0000b62a0000e02a0000302b0000442b0000802b00008e2b0000682c0000862c000006300000083000000a3000000c300000
+    m_ExpandedIDs: 00000000342700008827000090270000ac270000b2270000222800008c280000a228000014290000302900008c290000b82900001e2a00005e2c0000602c0000622c0000642c0000662c0000682c00006a2c00006c2c00006e2c0000702c0000722c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
