@@ -50,7 +50,8 @@ namespace UnityStandardAssets.Vehicles.Car
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
         public float CurrentSteerAngle{ get { return m_SteerAngle; }}
-        public float CurrentSpeed{ get { return m_Rigidbody.velocity.magnitude*2.23693629f; }}
+
+        public float CurrentSpeed{ get { return m_Rigidbody != null ? m_Rigidbody.velocity.magnitude*2.23693629f : 0f; }}
         public float MaxSpeed{get { return m_Topspeed; }}
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
@@ -174,7 +175,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void CapSpeed()
         {
-            float speed = m_Rigidbody.velocity.magnitude;
+            float speed = m_Rigidbody != null ? m_Rigidbody.velocity.magnitude : 0f;
             switch (m_SpeedType)
             {
                 case SpeedType.MPH:
@@ -249,7 +250,10 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 var turnadjust = (transform.eulerAngles.y - m_OldRotation) * m_SteerHelper;
                 Quaternion velRotation = Quaternion.AngleAxis(turnadjust, Vector3.up);
-                m_Rigidbody.velocity = velRotation * m_Rigidbody.velocity;
+                if (m_Rigidbody != null)
+                {
+                    m_Rigidbody.velocity = velRotation * m_Rigidbody.velocity;
+                }
             }
             m_OldRotation = transform.eulerAngles.y;
         }

@@ -15,6 +15,7 @@ public class LapTimeController : MonoBehaviour
     bool isGamePlaying;
     public Text startTimer;
     public int countDown = 3;
+    public GameObject AICar;
 
     // Use this for initialization
     void Start()
@@ -24,6 +25,8 @@ public class LapTimeController : MonoBehaviour
         CarController car2Controller = carControl2.GetComponent<CarController>();
         carController.enabled = false;
         car2Controller.enabled = false;
+        CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
+        AICarController.enabled = false;
         //carControl2.SetActive(false);
         lapTiming.SetActive(false);
         startTimer.text = countDown.ToString();
@@ -58,6 +61,8 @@ public class LapTimeController : MonoBehaviour
             CarController car2Controller = carControl2.GetComponent<CarController>();
             carController.enabled = true;
             car2Controller.enabled = true;
+            CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
+            AICarController.enabled = true;
             lapTiming.SetActive(true);
             int minutes = Mathf.FloorToInt(Time.timeSinceLevelLoad / 60);
             float seconds = Mathf.FloorToInt(Time.timeSinceLevelLoad % 60);

@@ -136,7 +136,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1360495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 341.675, y: 108, z: 0}
+  m_LocalPosition: {x: 340.175, y: 108, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -210,7 +210,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 18131903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 402.5, y: 130, z: 0}
+  m_LocalPosition: {x: 401, y: 130, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 151191128}
   m_Layer: 0
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1259,7 +1259,7 @@ GameObject:
   - component: {fileID: 151675594}
   m_Layer: 0
   m_Name: ColliderFront
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1854,6 +1854,18 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791346143149304, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533504953888944, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711245668956264, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
@@ -3447,7 +3459,7 @@ GameObject:
   - component: {fileID: 315162672}
   m_Layer: 0
   m_Name: MainCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4691,7 +4703,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 417108750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 397.5, y: 163, z: 0}
+  m_LocalPosition: {x: 396, y: 163, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1157956564}
@@ -7032,7 +7044,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 714132173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 302.5, y: 59, z: 0}
+  m_LocalPosition: {x: 301, y: 59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -7847,6 +7859,7 @@ MonoBehaviour:
   lapTime: {fileID: 18131905}
   startTimer: {fileID: 1289674367}
   countDown: 3
+  AICar: {fileID: 309003434}
 --- !u!4 &820426303
 Transform:
   m_ObjectHideFlags: 0
@@ -7884,7 +7897,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 825697284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 287.79993, y: 92, z: 0}
+  m_LocalPosition: {x: 286.29993, y: 92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -9194,7 +9207,7 @@ GameObject:
   - component: {fileID: 974701750}
   m_Layer: 0
   m_Name: ColliderBody
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10720,7 +10733,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157956563}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 288.5, y: 106.9, z: 0}
+  m_LocalPosition: {x: 287, y: 106.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -11221,7 +11234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549a96adf3349604993b44658a428a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCar: {fileID: 0}
+  playerCar: {fileID: 1524303274}
   aiCar: {fileID: 309003434}
 --- !u!1001 &1224150992
 Prefab:
@@ -12522,7 +12535,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1420696398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 302.5, y: 95, z: 0}
+  m_LocalPosition: {x: 301, y: 95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -13213,6 +13226,22 @@ Prefab:
         type: 2}
       propertyPath: engineSoundStyle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488814011008910, guid: 750635bb23420e74ead157388f59c6f3, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056747159734748, guid: 750635bb23420e74ead157388f59c6f3, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102930538072820, guid: 750635bb23420e74ead157388f59c6f3, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888622386006300, guid: 750635bb23420e74ead157388f59c6f3, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 750635bb23420e74ead157388f59c6f3, type: 2}
@@ -17393,7 +17422,7 @@ GameObject:
   - component: {fileID: 1675585443}
   m_Layer: 0
   m_Name: ColliderBottom
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18778,7 +18807,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852655366}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 341.67493, y: 72, z: 0}
+  m_LocalPosition: {x: 340.17493, y: 72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -19154,7 +19183,7 @@ GameObject:
   - component: {fileID: 1874688779}
   m_Layer: 0
   m_Name: MainCamera (1)
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19458,7 +19487,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1897984393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 302.5, y: 130, z: 0}
+  m_LocalPosition: {x: 301, y: 130, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}
@@ -21164,7 +21193,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2103210328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 287.8, y: 126.3, z: 0}
+  m_LocalPosition: {x: 286.3, y: 126.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 417108754}

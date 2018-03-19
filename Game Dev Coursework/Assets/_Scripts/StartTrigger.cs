@@ -11,12 +11,12 @@ public class StartTrigger : MonoBehaviour
     int PlayerLap = PlayerLapCounter;
     int AILap = AILapCounter;
 
-    GameObject playerCar = PlayerCarChoice.playerCar;
+    public GameObject playerCar;
     public GameObject aiCar;
 
-    void Update()
+    private void Start()
     {
-        print("WHY IS THIS NOT WORKING");
+        playerCar = PlayerCarChoice.playerCar;
     }
 
     void OnTriggerEnter(Collider other)
@@ -41,7 +41,7 @@ public class StartTrigger : MonoBehaviour
             }
         }
 
-        //detects who won and \camera finish   
+        //detects who won
         if (MidwayTrigger.midWayPlayer == 2)
         {
             if (other.gameObject == (playerCar))
@@ -53,7 +53,7 @@ public class StartTrigger : MonoBehaviour
 
                 else
                 {
-                    //  CameraFinishLose();
+                    //
                 }
             }
         }
