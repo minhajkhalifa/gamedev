@@ -66,7 +66,7 @@ public class LapTimeController : MonoBehaviour
             lapTiming.SetActive(true);
             int minutes = Mathf.FloorToInt(Time.timeSinceLevelLoad / 60);
             float seconds = Mathf.FloorToInt(Time.timeSinceLevelLoad % 60);
-            float milliSeconds = Mathf.FloorToInt(Time.timeSinceLevelLoad * 10);
+            float milliSeconds = Mathf.FloorToInt((Time.timeSinceLevelLoad * 10) % 99);
 
             lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
         }
