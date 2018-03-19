@@ -5,7 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Vehicles.Car;
 
-public class LapTimeController : MonoBehaviour {
+public class LapTimeController : MonoBehaviour
+{
 
     public GameObject carControl;
     public GameObject carControl2;
@@ -16,7 +17,8 @@ public class LapTimeController : MonoBehaviour {
     public int countDown = 3;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         //carControl.SetActive(false);
         CarController carController = carControl.GetComponent<CarController>();
         CarController car2Controller = carControl2.GetComponent<CarController>();
@@ -26,7 +28,7 @@ public class LapTimeController : MonoBehaviour {
         lapTiming.SetActive(false);
         startTimer.text = countDown.ToString();
         StartCoroutine(Countdown(countDown));
-	}
+    }
 
     private IEnumerator Countdown(int seconds)
     {
@@ -47,7 +49,8 @@ public class LapTimeController : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         if (isGamePlaying)
         {
             startTimer.text = "";
