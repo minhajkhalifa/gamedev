@@ -17,6 +17,8 @@ public class LapTimeController : MonoBehaviour
     public int countDown = 3;
     public GameObject AICar;
 
+    public static bool isNewLap = false;
+
     // Use this for initialization
     void Start()
     {
@@ -68,12 +70,19 @@ public class LapTimeController : MonoBehaviour
             float seconds = Mathf.FloorToInt(Time.timeSinceLevelLoad % 60);
             float milliSeconds = Mathf.FloorToInt((Time.timeSinceLevelLoad * 10) % 99);
 
-            lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
-        }
-    }
+            if (isNewLap == false)
+            {
+                lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
+            }
+            else
+            {
+                int newMinutes = Mathf.FloorToInt(Time.timeSinceLevelLoad / 60);
+                float newSeconds = Mathf.FloorToInt(Time.timeSinceLevelLoad % 60);
+                float newMilliSeconds = Mathf.FloorToInt((Time.timeSinceLevelLoad * 10) % 99);
 
-    public void ResetTime()
-    {
-        lapTime.text
+                lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", newMinutes, newSeconds, newMilliSeconds);
+            }
+            
+        }
     }
 }

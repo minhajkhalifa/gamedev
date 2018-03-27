@@ -41,6 +41,7 @@ public class StartTrigger : MonoBehaviour
 
                 if (usersLap < bestLapTime || bestLapScore.text == "00:00:0")
                 {
+                    LapTimeController.isNewLap = true;
                     bestLapScore.text = lapTime.text;
                 }
             }
