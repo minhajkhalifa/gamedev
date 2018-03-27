@@ -7031,7 +7031,7 @@ GameObject:
   - component: {fileID: 714132176}
   - component: {fileID: 714132175}
   m_Layer: 5
-  m_Name: LapNumberText
+  m_Name: LapNumberLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11234,6 +11234,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549a96adf3349604993b44658a428a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lapTime: {fileID: 18131905}
+  bestLapScore: {fileID: 1360497}
+  lapNumber: {fileID: 1852655368}
   playerCar: {fileID: 1524303274}
   aiCar: {fileID: 309003434}
 --- !u!1001 &1224150992
@@ -12522,7 +12525,7 @@ GameObject:
   - component: {fileID: 1420696401}
   - component: {fileID: 1420696400}
   m_Layer: 5
-  m_Name: BestTimeText
+  m_Name: BestTimeLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19478,7 +19481,7 @@ GameObject:
   - component: {fileID: 1897984396}
   - component: {fileID: 1897984395}
   m_Layer: 5
-  m_Name: LapTimeText
+  m_Name: LapTimeLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

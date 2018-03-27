@@ -71,4 +71,9 @@ public class LapTimeController : MonoBehaviour
             lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
         }
     }
+
+    public void ResetTime()
+    {
+        lapTime.text
+    }
 }

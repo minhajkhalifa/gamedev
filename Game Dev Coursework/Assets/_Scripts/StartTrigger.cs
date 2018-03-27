@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,7 @@ public class StartTrigger : MonoBehaviour
 
     public Text lapTime;
     public Text bestLapScore;
+    public Text lapNumber;
     //int PlayerLap = PlayerLapCounter;
     //int AILap = AILapCounter;
 
@@ -20,15 +22,11 @@ public class StartTrigger : MonoBehaviour
     private void Start()
     {
         playerCar = PlayerCarChoice.playerCar;
+        lapNumber.text = PlayerLapCounter.ToString() + "/2";
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if ("lapTime < bestLap")
-        {
-            bestLapScore.text = lapTime.text;
-        }
-
         //PlayerBike LapCounter
         if (MidwayTrigger.midWayPlayer == PlayerLapCounter)
         {
@@ -36,6 +34,15 @@ public class StartTrigger : MonoBehaviour
             {
                 PlayerLapCounter++;
                 print("Current Lap Player:" + PlayerLapCounter);
+                lapNumber.text = PlayerLapCounter.ToString() + "/2";
+
+                TimeSpan usersLap = TimeSpan.Parse(lapTime.text);
+                TimeSpan bestLapTime = TimeSpan.Parse(bestLapScore.text);
+
+                if (usersLap < bestLapTime || bestLapScore.text == "00:00:0")
+                {
+                    bestLapScore.text = lapTime.text;
+                }
             }
         }
 
