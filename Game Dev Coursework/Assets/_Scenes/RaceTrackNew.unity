@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 59728899}
   - component: {fileID: 59728898}
   m_Layer: 0
-  m_Name: Cube (35)
+  m_Name: Waypoint 029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 59728897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -237,7 +237,7 @@ BoxCollider:
   m_GameObject: {fileID: 59728897}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -255,11 +255,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 59728897}
   m_LocalRotation: {x: -0, y: 0.07754592, z: -0, w: -0.9969888}
-  m_LocalPosition: {x: -77.24, y: 5.59, z: 92.21}
+  m_LocalPosition: {x: -173.09396, y: 23.282564, z: 66.85329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: -368.895, z: 0}
 --- !u!1 &93341961
 GameObject:
@@ -285,7 +285,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 93341961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 294, y: 106.9, z: 0}
+  m_LocalPosition: {x: 300, y: 106.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 131603635}
   - component: {fileID: 131603634}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Waypoint 034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,7 +353,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 131603633}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -389,7 +389,7 @@ BoxCollider:
   m_GameObject: {fileID: 131603633}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -406,12 +406,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 131603633}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.46, y: 1.262, z: 31.12}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -151.90396, y: 18.954563, z: 11.83329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &146937258
 GameObject:
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 146937260}
   - component: {fileID: 146937259}
   m_Layer: 0
-  m_Name: Cube (11)
+  m_Name: Waypoint 003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,7 +437,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 146937258}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -473,7 +473,7 @@ BoxCollider:
   m_GameObject: {fileID: 146937258}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -491,11 +491,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 146937258}
   m_LocalRotation: {x: -0, y: -0.4967589, z: -0, w: 0.86788857}
-  m_LocalPosition: {x: 120.48, y: 5.33, z: 36.78}
+  m_LocalPosition: {x: 20.3, y: 23.022564, z: 15.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -59.572002, z: 0}
 --- !u!1 &206761638
 GameObject:
@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 219930011}
   - component: {fileID: 219930010}
   m_Layer: 0
-  m_Name: Cube (41)
+  m_Name: Waypoint 036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -574,7 +574,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 219930009}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -610,7 +610,7 @@ BoxCollider:
   m_GameObject: {fileID: 219930009}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -628,11 +628,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 219930009}
   m_LocalRotation: {x: -0, y: -0.9121126, z: -0, w: -0.4099397}
-  m_LocalPosition: {x: 38.35, y: 5.54, z: -0.74}
+  m_LocalPosition: {x: -57.63, y: 23.232563, z: -26.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: -228.402, z: 0}
 --- !u!1 &225307540
 GameObject:
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 230190526}
   - component: {fileID: 230190525}
   m_Layer: 0
-  m_Name: Cube (33)
+  m_Name: Waypoint 027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,7 +731,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 230190524}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -767,7 +767,7 @@ BoxCollider:
   m_GameObject: {fileID: 230190524}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -785,11 +785,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 230190524}
   m_LocalRotation: {x: -0, y: -0.015110922, z: -0, w: -0.99988586}
-  m_LocalPosition: {x: -117.06, y: 7.46, z: 76.86}
+  m_LocalPosition: {x: -213.40396, y: 25.152565, z: 58.473286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: -358.268, z: 0}
 --- !u!1 &252694475
 GameObject:
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 252694477}
   - component: {fileID: 252694476}
   m_Layer: 0
-  m_Name: Cube (24)
+  m_Name: Waypoint 017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -815,7 +815,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 252694475}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -851,7 +851,7 @@ BoxCollider:
   m_GameObject: {fileID: 252694475}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -869,11 +869,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 252694475}
   m_LocalRotation: {x: -0, y: -0.97469974, z: -0, w: -0.22351825}
-  m_LocalPosition: {x: -10.2, y: 5.43, z: 128.1}
+  m_LocalPosition: {x: -105.343956, y: 23.122564, z: 103.783295}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -205.83199, z: 0}
 --- !u!1 &267300023
 GameObject:
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 267300025}
   - component: {fileID: 267300024}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: Waypoint 060
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -899,7 +899,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 267300023}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -935,7 +935,7 @@ BoxCollider:
   m_GameObject: {fileID: 267300023}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -952,12 +952,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 267300023}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.2, y: 9.4, z: 32.8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.243958, y: 27.092564, z: 14.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275279799
 GameObject:
@@ -1244,7 +1244,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339293389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 403, y: 163, z: 0}
+  m_LocalPosition: {x: 409, y: 163, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 93341962}
@@ -1277,7 +1277,7 @@ GameObject:
   - component: {fileID: 341625941}
   - component: {fileID: 341625940}
   m_Layer: 0
-  m_Name: Cube (19)
+  m_Name: Waypoint 011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1289,7 +1289,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 341625939}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1325,7 +1325,7 @@ BoxCollider:
   m_GameObject: {fileID: 341625939}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1343,11 +1343,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 341625939}
   m_LocalRotation: {x: -0, y: -0.98458046, z: -0, w: 0.17493258}
-  m_LocalPosition: {x: 83.55, y: 5.43, z: 160.09}
+  m_LocalPosition: {x: -14.97, y: 23.122564, z: 139.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -159.85101, z: 0}
 --- !u!1 &347757975
 GameObject:
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 347757977}
   - component: {fileID: 347757976}
   m_Layer: 0
-  m_Name: Cube (23)
+  m_Name: Waypoint 016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1373,7 +1373,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 347757975}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1409,7 +1409,7 @@ BoxCollider:
   m_GameObject: {fileID: 347757975}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1427,11 +1427,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 347757975}
   m_LocalRotation: {x: -0, y: -0.93689907, z: -0, w: -0.3496}
-  m_LocalPosition: {x: 12.23, y: 5.43, z: 147.9}
+  m_LocalPosition: {x: -82.77396, y: 23.122564, z: 124.62329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -220.926, z: 0}
 --- !u!1 &355939788
 GameObject:
@@ -1445,7 +1445,7 @@ GameObject:
   - component: {fileID: 355939790}
   - component: {fileID: 355939789}
   m_Layer: 0
-  m_Name: Cube (12)
+  m_Name: Waypoint 004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1457,7 +1457,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 355939788}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1493,7 +1493,7 @@ BoxCollider:
   m_GameObject: {fileID: 355939788}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1511,11 +1511,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 355939788}
   m_LocalRotation: {x: -0, y: -0.7585404, z: -0, w: 0.6516261}
-  m_LocalPosition: {x: 124.15, y: 5.29, z: 44.14}
+  m_LocalPosition: {x: 25.81, y: 22.982563, z: 24.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -98.671005, z: 0}
 --- !u!1 &372422719
 GameObject:
@@ -1616,7 +1616,7 @@ GameObject:
   - component: {fileID: 373108329}
   - component: {fileID: 373108328}
   m_Layer: 0
-  m_Name: Cube (34)
+  m_Name: Waypoint 028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1628,7 +1628,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 373108327}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1664,7 +1664,7 @@ BoxCollider:
   m_GameObject: {fileID: 373108327}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1682,11 +1682,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 373108327}
   m_LocalRotation: {x: -0, y: 0.11919482, z: -0, w: -0.9928709}
-  m_LocalPosition: {x: -94.48, y: 6.3, z: 77.38}
+  m_LocalPosition: {x: -190.92395, y: 23.992565, z: 55.763287}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: -373.691, z: 0}
 --- !u!1001 &376594940
 Prefab:
@@ -1962,7 +1962,7 @@ GameObject:
   - component: {fileID: 426211924}
   - component: {fileID: 426211923}
   m_Layer: 0
-  m_Name: Cube (28)
+  m_Name: Waypoint 021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +1974,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 426211922}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2010,7 +2010,7 @@ BoxCollider:
   m_GameObject: {fileID: 426211922}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2028,11 +2028,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 426211922}
   m_LocalRotation: {x: -0, y: -0.9992358, z: -0, w: -0.039088484}
-  m_LocalPosition: {x: -90.76, y: 5.69, z: 136.93}
+  m_LocalPosition: {x: -187.20395, y: 23.382565, z: 115.31328}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -184.48, z: 0}
 --- !u!1 &475871866
 GameObject:
@@ -2119,7 +2119,7 @@ GameObject:
   - component: {fileID: 515111182}
   - component: {fileID: 515111181}
   m_Layer: 0
-  m_Name: Cube (14)
+  m_Name: Waypoint 006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2131,7 +2131,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 515111180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2167,7 +2167,7 @@ BoxCollider:
   m_GameObject: {fileID: 515111180}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2185,11 +2185,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 515111180}
   m_LocalRotation: {x: -0, y: -0.8472925, z: -0, w: 0.53112656}
-  m_LocalPosition: {x: 102.1, y: 5.34, z: 60.6}
+  m_LocalPosition: {x: 5.656044, y: 23.032564, z: 38.983288}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -115.837006, z: 0}
 --- !u!1 &517079010
 GameObject:
@@ -2215,7 +2215,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 517079010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 293.29993, y: 92, z: 0}
+  m_LocalPosition: {x: 299.29993, y: 92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -2270,7 +2270,7 @@ GameObject:
   - component: {fileID: 591310071}
   - component: {fileID: 591310070}
   m_Layer: 0
-  m_Name: Cube (60)
+  m_Name: Waypoint 057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2282,7 +2282,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 591310069}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2318,7 +2318,7 @@ BoxCollider:
   m_GameObject: {fileID: 591310069}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2336,11 +2336,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 591310069}
   m_LocalRotation: {x: -0, y: -0.46212903, z: -0, w: 0.88681275}
-  m_LocalPosition: {x: -85.85, y: 1.82, z: -26.08}
+  m_LocalPosition: {x: -185.69, y: 19.512564, z: -45.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: -55.049004, z: 0}
 --- !u!1 &614095058
 GameObject:
@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 623303704}
   - component: {fileID: 623303703}
   m_Layer: 0
-  m_Name: Cube (58)
+  m_Name: Waypoint 054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2554,7 +2554,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 623303702}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2590,7 +2590,7 @@ BoxCollider:
   m_GameObject: {fileID: 623303702}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2608,11 +2608,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 623303702}
   m_LocalRotation: {x: -0, y: -0.70147127, z: -0, w: 0.71269774}
-  m_LocalPosition: {x: -96.62, y: 1.82, z: -59.69}
+  m_LocalPosition: {x: -194.07, y: 19.512564, z: -81.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: -89.090004, z: 0}
 --- !u!1 &626698311
 GameObject:
@@ -2626,7 +2626,7 @@ GameObject:
   - component: {fileID: 626698313}
   - component: {fileID: 626698312}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: Waypoint 061
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2638,7 +2638,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 626698311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2674,7 +2674,7 @@ BoxCollider:
   m_GameObject: {fileID: 626698311}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2692,11 +2692,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 626698311}
   m_LocalRotation: {x: -0, y: -0.030657604, z: -0, w: 0.99952996}
-  m_LocalPosition: {x: 87.02, y: 8.03, z: 33.62}
+  m_LocalPosition: {x: -9.423958, y: 25.722565, z: 12.003288}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -3.5140002, z: 0}
 --- !u!1 &650613076
 GameObject:
@@ -2710,7 +2710,7 @@ GameObject:
   - component: {fileID: 650613078}
   - component: {fileID: 650613077}
   m_Layer: 0
-  m_Name: Cube (26)
+  m_Name: Waypoint 019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2722,7 +2722,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 650613076}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2758,7 +2758,7 @@ BoxCollider:
   m_GameObject: {fileID: 650613076}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2776,11 +2776,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 650613076}
   m_LocalRotation: {x: -0, y: -0.99068713, z: -0, w: 0.13615869}
-  m_LocalPosition: {x: -45.63, y: 5.56, z: 121.49}
+  m_LocalPosition: {x: -142.8, y: 23.252563, z: 97.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -164.34901, z: 0}
 --- !u!1 &656962678
 GameObject:
@@ -2814,7 +2814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuit: {fileID: 0}
+  circuit: {fileID: 2072056950}
   lookAheadForTargetOffset: 5
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
@@ -2963,6 +2963,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 1.8490001, z: 0}
+--- !u!1 &675696157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 675696161}
+  - component: {fileID: 675696160}
+  - component: {fileID: 675696159}
+  - component: {fileID: 675696158}
+  m_Layer: 0
+  m_Name: Waypoint 058
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &675696158
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675696157}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &675696159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675696157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &675696160
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675696157}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &675696161
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675696157}
+  m_LocalRotation: {x: -0, y: -0.46212903, z: -0, w: 0.88681275}
+  m_LocalPosition: {x: -174.89, y: 19.512564, z: -33.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 61
+  m_LocalEulerAnglesHint: {x: 0, y: -55.049004, z: 0}
 --- !u!1001 &677556576
 Prefab:
   m_ObjectHideFlags: 0
@@ -3086,7 +3170,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 732847946}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 308, y: 95, z: 0}
+  m_LocalPosition: {x: 314, y: 95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -3214,7 +3298,7 @@ GameObject:
   - component: {fileID: 763315990}
   - component: {fileID: 763315989}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Waypoint 012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3226,7 +3310,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 763315988}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3262,7 +3346,7 @@ BoxCollider:
   m_GameObject: {fileID: 763315988}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3279,13 +3363,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 763315988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.15, y: 1.262, z: 17.88}
+  m_LocalRotation: {x: -0, y: 0.16596489, z: -0, w: 0.98613167}
+  m_LocalPosition: {x: -168.29395, y: 18.954563, z: -2.8067112}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 19.107, z: 0}
 --- !u!1 &797555304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3397,7 +3481,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 797812061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 347.175, y: 108, z: 0}
+  m_LocalPosition: {x: 353.175, y: 108, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -3471,7 +3555,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 872363970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 308, y: 130, z: 0}
+  m_LocalPosition: {x: 314, y: 130, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -3620,7 +3704,7 @@ GameObject:
   - component: {fileID: 928549739}
   - component: {fileID: 928549738}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Waypoint 045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3632,7 +3716,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 928549737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3668,7 +3752,7 @@ BoxCollider:
   m_GameObject: {fileID: 928549737}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3685,12 +3769,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 928549737}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.35, y: 3.52, z: 32.94}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -121.79395, y: 21.212564, z: 14.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963672720
 GameObject:
@@ -3734,7 +3818,7 @@ GameObject:
   - component: {fileID: 973699155}
   - component: {fileID: 973699154}
   m_Layer: 0
-  m_Name: Cube (36)
+  m_Name: Waypoint 030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3746,7 +3830,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 973699153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3782,7 +3866,7 @@ BoxCollider:
   m_GameObject: {fileID: 973699153}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3800,11 +3884,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 973699153}
   m_LocalRotation: {x: -0, y: 0.007894422, z: -0, w: -0.9999688}
-  m_LocalPosition: {x: -53.3, y: 5.19, z: 96}
+  m_LocalPosition: {x: -149.74396, y: 22.882565, z: 74.383286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: -360.905, z: 0}
 --- !u!1 &974231813
 GameObject:
@@ -3830,7 +3914,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 974231813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 408, y: 130, z: 0}
+  m_LocalPosition: {x: 414, y: 130, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -4121,7 +4205,7 @@ GameObject:
   - component: {fileID: 1056613471}
   - component: {fileID: 1056613470}
   m_Layer: 0
-  m_Name: Cube (27)
+  m_Name: Waypoint 020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4133,7 +4217,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1056613469}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4169,7 +4253,7 @@ BoxCollider:
   m_GameObject: {fileID: 1056613469}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4187,11 +4271,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1056613469}
   m_LocalRotation: {x: -0, y: -0.99993277, z: -0, w: 0.011598971}
-  m_LocalPosition: {x: -63.519, y: 5.56, z: 133.294}
+  m_LocalPosition: {x: -159.96295, y: 23.252563, z: 111.67729}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -178.671, z: 0}
 --- !u!1 &1070997321
 GameObject:
@@ -4306,7 +4390,7 @@ GameObject:
   - component: {fileID: 1082034343}
   - component: {fileID: 1082034342}
   m_Layer: 0
-  m_Name: Cube (54)
+  m_Name: Waypoint 050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4318,7 +4402,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1082034341}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4354,7 +4438,7 @@ BoxCollider:
   m_GameObject: {fileID: 1082034341}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4372,11 +4456,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1082034341}
   m_LocalRotation: {x: -0, y: -0.9985447, z: -0, w: -0.053930104}
-  m_LocalPosition: {x: -55.02, y: 1.82, z: -142.96}
+  m_LocalPosition: {x: -146.33395, y: 19.512564, z: -159.59671}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: -186.183, z: 0}
 --- !u!1 &1100896303
 GameObject:
@@ -4390,7 +4474,7 @@ GameObject:
   - component: {fileID: 1100896305}
   - component: {fileID: 1100896304}
   m_Layer: 0
-  m_Name: Cube (40)
+  m_Name: Waypoint 035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4402,7 +4486,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1100896303}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4438,7 +4522,7 @@ BoxCollider:
   m_GameObject: {fileID: 1100896303}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4456,11 +4540,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1100896303}
   m_LocalRotation: {x: -0, y: -0.7029651, z: -0, w: -0.71122444}
-  m_LocalPosition: {x: 42.05, y: 5.54, z: 76.97}
+  m_LocalPosition: {x: -54.393955, y: 23.232563, z: 55.35329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -270.669, z: 0}
 --- !u!1 &1118868233
 GameObject:
@@ -4675,7 +4759,7 @@ GameObject:
   - component: {fileID: 1137971660}
   - component: {fileID: 1137971659}
   m_Layer: 0
-  m_Name: Cube (39)
+  m_Name: Waypoint 033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4687,7 +4771,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1137971658}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4723,7 +4807,7 @@ BoxCollider:
   m_GameObject: {fileID: 1137971658}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4741,11 +4825,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1137971658}
   m_LocalRotation: {x: -0, y: -0.7373487, z: -0, w: -0.6755124}
-  m_LocalPosition: {x: 42.18, y: 5.54, z: 22.69}
+  m_LocalPosition: {x: -54.263954, y: 23.232563, z: 1.0732899}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: -264.988, z: 0}
 --- !u!1 &1149760590
 GameObject:
@@ -4832,7 +4916,7 @@ GameObject:
   - component: {fileID: 1158885946}
   - component: {fileID: 1158885945}
   m_Layer: 0
-  m_Name: Cube (13)
+  m_Name: Waypoint 005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4844,7 +4928,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1158885944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4880,7 +4964,7 @@ BoxCollider:
   m_GameObject: {fileID: 1158885944}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4898,11 +4982,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1158885944}
   m_LocalRotation: {x: -0, y: -0.96562964, z: -0, w: 0.25992206}
-  m_LocalPosition: {x: 120.59, y: 5.35, z: 51.67}
+  m_LocalPosition: {x: 22.44, y: 23.042564, z: 34.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -149.869, z: 0}
 --- !u!1 &1166932898
 GameObject:
@@ -4946,7 +5030,7 @@ GameObject:
   - component: {fileID: 1172282554}
   - component: {fileID: 1172282553}
   m_Layer: 0
-  m_Name: Cube (29)
+  m_Name: Waypoint 022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4958,7 +5042,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172282552}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4994,7 +5078,7 @@ BoxCollider:
   m_GameObject: {fileID: 1172282552}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5012,11 +5096,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172282552}
   m_LocalRotation: {x: -0, y: -0.9953037, z: -0, w: -0.096802205}
-  m_LocalPosition: {x: -108.51, y: 7.19, z: 139.06}
+  m_LocalPosition: {x: -204.33395, y: 24.882565, z: 114.29329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: -191.10999, z: 0}
 --- !u!1 &1183447963
 GameObject:
@@ -5030,7 +5114,7 @@ GameObject:
   - component: {fileID: 1183447965}
   - component: {fileID: 1183447964}
   m_Layer: 0
-  m_Name: Cube (49)
+  m_Name: Waypoint 044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5042,7 +5126,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1183447963}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5078,7 +5162,7 @@ BoxCollider:
   m_GameObject: {fileID: 1183447963}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5096,11 +5180,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1183447963}
   m_LocalRotation: {x: -0, y: -0.8536567, z: -0, w: 0.5208362}
-  m_LocalPosition: {x: -6.43, y: 1.76, z: -142.02}
+  m_LocalPosition: {x: -108.6, y: 19.452564, z: -162.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: -117.22301, z: 0}
 --- !u!1 &1185777039
 GameObject:
@@ -5114,7 +5198,7 @@ GameObject:
   - component: {fileID: 1185777041}
   - component: {fileID: 1185777040}
   m_Layer: 0
-  m_Name: Cube (30)
+  m_Name: Waypoint 024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5126,7 +5210,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1185777039}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5162,7 +5246,7 @@ BoxCollider:
   m_GameObject: {fileID: 1185777039}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5180,11 +5264,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1185777039}
   m_LocalRotation: {x: -0, y: -0.82654345, z: -0, w: -0.56287295}
-  m_LocalPosition: {x: -130.29, y: 7.19, z: 127.44}
+  m_LocalPosition: {x: -221.84396, y: 24.882565, z: 106.18329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: -248.509, z: 0}
 --- !u!1 &1199326051
 GameObject:
@@ -5198,7 +5282,7 @@ GameObject:
   - component: {fileID: 1199326053}
   - component: {fileID: 1199326052}
   m_Layer: 0
-  m_Name: Cube (38)
+  m_Name: Waypoint 032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5210,7 +5294,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1199326051}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5246,7 +5330,7 @@ BoxCollider:
   m_GameObject: {fileID: 1199326051}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5264,11 +5348,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1199326051}
   m_LocalRotation: {x: -0, y: -0.54909956, z: -0, w: -0.83575696}
-  m_LocalPosition: {x: 35.2, y: 5.37, z: 94.3}
+  m_LocalPosition: {x: -56.01, y: 23.062565, z: 71.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: -293.389, z: 0}
 --- !u!1 &1205039446
 GameObject:
@@ -5383,7 +5467,7 @@ GameObject:
   - component: {fileID: 1224396594}
   - component: {fileID: 1224396593}
   m_Layer: 0
-  m_Name: Cube (43)
+  m_Name: Waypoint 038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5395,7 +5479,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1224396592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5431,7 +5515,7 @@ BoxCollider:
   m_GameObject: {fileID: 1224396592}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5449,11 +5533,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1224396592}
   m_LocalRotation: {x: -0, y: -0.70380163, z: -0, w: -0.7103966}
-  m_LocalPosition: {x: -15.37, y: 5.54, z: -59.43}
+  m_LocalPosition: {x: -113.72, y: 23.232563, z: -85.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: -270.534, z: 0}
 --- !u!4 &1230479626 stripped
 Transform:
@@ -5471,7 +5555,7 @@ GameObject:
   - component: {fileID: 1232455874}
   - component: {fileID: 1232455873}
   m_Layer: 0
-  m_Name: Cube (42)
+  m_Name: Waypoint 037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5483,7 +5567,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1232455872}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5519,7 +5603,7 @@ BoxCollider:
   m_GameObject: {fileID: 1232455872}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5537,11 +5621,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1232455872}
   m_LocalRotation: {x: -0, y: -0.88743436, z: -0, w: -0.46093422}
-  m_LocalPosition: {x: -2.63, y: 5.54, z: -44.8}
+  m_LocalPosition: {x: -81.48, y: 23.232563, z: -49.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: -234.89499, z: 0}
 --- !u!1 &1266963202
 GameObject:
@@ -5555,7 +5639,7 @@ GameObject:
   - component: {fileID: 1266963204}
   - component: {fileID: 1266963203}
   m_Layer: 0
-  m_Name: Cube (57)
+  m_Name: Waypoint 053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5567,7 +5651,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1266963202}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5603,7 +5687,7 @@ BoxCollider:
   m_GameObject: {fileID: 1266963202}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5621,11 +5705,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1266963202}
   m_LocalRotation: {x: -0, y: -0.7136682, z: -0, w: 0.70048386}
-  m_LocalPosition: {x: -96.52, y: 1.82, z: -114.38}
+  m_LocalPosition: {x: -193.6, y: 19.512564, z: -130.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: -91.068, z: 0}
 --- !u!1 &1271797010
 GameObject:
@@ -5727,7 +5811,7 @@ GameObject:
   - component: {fileID: 1296832453}
   - component: {fileID: 1296832452}
   m_Layer: 0
-  m_Name: Cube (56)
+  m_Name: Waypoint 052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5739,7 +5823,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1296832451}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5775,7 +5859,7 @@ BoxCollider:
   m_GameObject: {fileID: 1296832451}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5793,11 +5877,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1296832451}
   m_LocalRotation: {x: -0, y: -0.7883169, z: -0, w: 0.6152695}
-  m_LocalPosition: {x: -90.72, y: 1.82, z: -131.22}
+  m_LocalPosition: {x: -185.9, y: 19.512564, z: -152.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: -104.05701, z: 0}
 --- !u!1 &1297794374
 GameObject:
@@ -5884,7 +5968,7 @@ GameObject:
   - component: {fileID: 1328686814}
   - component: {fileID: 1328686813}
   m_Layer: 0
-  m_Name: Cube (55)
+  m_Name: Waypoint 051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5896,7 +5980,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1328686812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5932,7 +6016,7 @@ BoxCollider:
   m_GameObject: {fileID: 1328686812}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5950,11 +6034,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1328686812}
   m_LocalRotation: {x: -0, y: -0.94952935, z: -0, w: 0.31367838}
-  m_LocalPosition: {x: -73.29, y: 1.82, z: -144.15}
+  m_LocalPosition: {x: -167.44, y: 19.492563, z: -162.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: -143.438, z: 0}
 --- !u!1 &1330027284
 GameObject:
@@ -5968,7 +6052,7 @@ GameObject:
   - component: {fileID: 1330027286}
   - component: {fileID: 1330027285}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Waypoint 059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5980,7 +6064,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1330027284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6016,7 +6100,7 @@ BoxCollider:
   m_GameObject: {fileID: 1330027284}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6033,12 +6117,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1330027284}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.8, y: 9.4, z: 32.8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -59.643955, y: 27.092564, z: 14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352505897
 GameObject:
@@ -6052,7 +6136,7 @@ GameObject:
   - component: {fileID: 1352505899}
   - component: {fileID: 1352505898}
   m_Layer: 0
-  m_Name: Cube (21)
+  m_Name: Waypoint 014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6064,7 +6148,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1352505897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6100,7 +6184,7 @@ BoxCollider:
   m_GameObject: {fileID: 1352505897}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6118,11 +6202,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1352505897}
   m_LocalRotation: {x: -0, y: -0.95983225, z: -0, w: -0.28057465}
-  m_LocalPosition: {x: 52.91, y: 5.43, z: 177.86}
+  m_LocalPosition: {x: -42.4, y: 23.122564, z: 154.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -212.58899, z: 0}
 --- !u!1 &1357429982
 GameObject:
@@ -9467,7 +9551,7 @@ GameObject:
   - component: {fileID: 1378698249}
   - component: {fileID: 1378698248}
   m_Layer: 0
-  m_Name: Cube (20)
+  m_Name: Waypoint 013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9479,7 +9563,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378698247}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9515,7 +9599,7 @@ BoxCollider:
   m_GameObject: {fileID: 1378698247}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9533,11 +9617,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378698247}
   m_LocalRotation: {x: -0, y: -0.9946863, z: -0, w: 0.102952905}
-  m_LocalPosition: {x: 69.07, y: 5.43, z: 174.48}
+  m_LocalPosition: {x: -27.4, y: 23.122564, z: 152.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -168.182, z: 0}
 --- !u!1 &1392587846
 GameObject:
@@ -9551,7 +9635,7 @@ GameObject:
   - component: {fileID: 1392587848}
   - component: {fileID: 1392587847}
   m_Layer: 0
-  m_Name: Cube (15)
+  m_Name: Waypoint 007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9563,7 +9647,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1392587846}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9599,7 +9683,7 @@ BoxCollider:
   m_GameObject: {fileID: 1392587846}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9617,11 +9701,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1392587846}
   m_LocalRotation: {x: -0, y: -0.78289235, z: -0, w: 0.6221572}
-  m_LocalPosition: {x: 91.96, y: 5.38, z: 72.12}
+  m_LocalPosition: {x: -5.8939514, y: 23.072563, z: 50.17329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: -103.052, z: 0}
 --- !u!1 &1393153346
 GameObject:
@@ -9791,7 +9875,7 @@ GameObject:
   - component: {fileID: 1423981536}
   - component: {fileID: 1423981535}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Waypoint 000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9803,7 +9887,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423981534}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9839,7 +9923,7 @@ BoxCollider:
   m_GameObject: {fileID: 1423981534}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9857,11 +9941,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423981534}
   m_LocalRotation: {x: -0, y: -0.0013578536, z: -0, w: 0.9999991}
-  m_LocalPosition: {x: -72.91, y: 1.62, z: 1.12}
+  m_LocalPosition: {x: -171.08, y: 19.312565, z: -20.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0.156, z: 0}
 --- !u!1 &1425081570
 GameObject:
@@ -9875,7 +9959,7 @@ GameObject:
   - component: {fileID: 1425081572}
   - component: {fileID: 1425081571}
   m_Layer: 0
-  m_Name: Cube (47)
+  m_Name: Waypoint 042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9887,7 +9971,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1425081570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9923,7 +10007,7 @@ BoxCollider:
   m_GameObject: {fileID: 1425081570}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9941,11 +10025,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1425081570}
   m_LocalRotation: {x: -0, y: -0.7936151, z: -0, w: -0.6084202}
-  m_LocalPosition: {x: 22.75, y: 1.76, z: -111.63}
+  m_LocalPosition: {x: -73.693954, y: 19.452564, z: -133.2467}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -254.95099, z: 0}
 --- !u!1 &1517096092
 GameObject:
@@ -10060,7 +10144,7 @@ GameObject:
   - component: {fileID: 1542332183}
   - component: {fileID: 1542332182}
   m_Layer: 0
-  m_Name: Cube (53)
+  m_Name: Waypoint 049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10072,7 +10156,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542332181}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10108,7 +10192,7 @@ BoxCollider:
   m_GameObject: {fileID: 1542332181}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10126,11 +10210,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542332181}
   m_LocalRotation: {x: -0, y: -0.9482036, z: -0, w: -0.31766316}
-  m_LocalPosition: {x: -36.53, y: 1.82, z: -124.61}
+  m_LocalPosition: {x: -135.72, y: 19.512564, z: -142.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: -217.043, z: 0}
 --- !u!1 &1566050375
 GameObject:
@@ -10144,7 +10228,7 @@ GameObject:
   - component: {fileID: 1566050377}
   - component: {fileID: 1566050376}
   m_Layer: 0
-  m_Name: Cube (52)
+  m_Name: Waypoint 048
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10156,7 +10240,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1566050375}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10192,7 +10276,7 @@ BoxCollider:
   m_GameObject: {fileID: 1566050375}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10210,11 +10294,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1566050375}
   m_LocalRotation: {x: -0, y: -0.8753312, z: -0, w: -0.48352373}
-  m_LocalPosition: {x: -29.88, y: 1.26, z: -104.99}
+  m_LocalPosition: {x: -128.24, y: 18.952564, z: -125.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: -237.832, z: 0}
 --- !u!1 &1585480208
 GameObject:
@@ -10316,7 +10400,7 @@ GameObject:
   - component: {fileID: 1594456523}
   - component: {fileID: 1594456522}
   m_Layer: 0
-  m_Name: Cube (51)
+  m_Name: Waypoint 047
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10328,7 +10412,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1594456521}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10364,7 +10448,7 @@ BoxCollider:
   m_GameObject: {fileID: 1594456521}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10382,11 +10466,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1594456521}
   m_LocalRotation: {x: -0, y: -0.9999471, z: -0, w: 0.010295951}
-  m_LocalPosition: {x: -17.9, y: 1.76, z: -105.24}
+  m_LocalPosition: {x: -117.8, y: 19.452564, z: -128.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: -178.82, z: 0}
 --- !u!1 &1604284238
 GameObject:
@@ -10400,7 +10484,7 @@ GameObject:
   - component: {fileID: 1604284240}
   - component: {fileID: 1604284239}
   m_Layer: 0
-  m_Name: Cube (59)
+  m_Name: Waypoint 055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10412,7 +10496,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1604284238}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10448,7 +10532,7 @@ BoxCollider:
   m_GameObject: {fileID: 1604284238}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10466,11 +10550,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1604284238}
   m_LocalRotation: {x: -0, y: -0.46212903, z: -0, w: 0.88681275}
-  m_LocalPosition: {x: -96.29, y: 1.82, z: -38.64}
+  m_LocalPosition: {x: -194.9, y: 19.512564, z: -58.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: -55.049004, z: 0}
 --- !u!1 &1609329152
 GameObject:
@@ -10557,7 +10641,7 @@ GameObject:
   - component: {fileID: 1621321936}
   - component: {fileID: 1621321935}
   m_Layer: 0
-  m_Name: Cube (45)
+  m_Name: Waypoint 040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10569,7 +10653,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1621321934}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10605,7 +10689,7 @@ BoxCollider:
   m_GameObject: {fileID: 1621321934}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10623,11 +10707,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1621321934}
   m_LocalRotation: {x: -0, y: -0.14214292, z: -0, w: -0.98984617}
-  m_LocalPosition: {x: 2.36, y: 4.5, z: -83.13}
+  m_LocalPosition: {x: -94.083954, y: 22.192564, z: -104.746704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: -343.656, z: 0}
 --- !u!1 &1674805284
 GameObject:
@@ -10715,7 +10799,7 @@ GameObject:
   - component: {fileID: 1685119390}
   - component: {fileID: 1685119389}
   m_Layer: 0
-  m_Name: Cube (44)
+  m_Name: Waypoint 039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10727,7 +10811,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1685119388}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10763,7 +10847,7 @@ BoxCollider:
   m_GameObject: {fileID: 1685119388}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10781,11 +10865,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1685119388}
   m_LocalRotation: {x: -0, y: -0.14214292, z: -0, w: -0.98984617}
-  m_LocalPosition: {x: -18.45, y: 5.54, z: -77.03}
+  m_LocalPosition: {x: -110.35, y: 23.232563, z: -99.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: -343.656, z: 0}
 --- !u!1 &1727090806
 GameObject:
@@ -10811,7 +10895,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1727090806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 347.17493, y: 72, z: 0}
+  m_LocalPosition: {x: 353.17493, y: 72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -10873,7 +10957,7 @@ GameObject:
   - component: {fileID: 1734214476}
   - component: {fileID: 1734214475}
   m_Layer: 0
-  m_Name: Cube (22)
+  m_Name: Waypoint 015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10885,7 +10969,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1734214474}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10921,7 +11005,7 @@ BoxCollider:
   m_GameObject: {fileID: 1734214474}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10939,11 +11023,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1734214474}
   m_LocalRotation: {x: -0, y: -0.93689907, z: -0, w: -0.3496}
-  m_LocalPosition: {x: 33.84, y: 5.43, z: 167.88}
+  m_LocalPosition: {x: -58.4, y: 23.122564, z: 148.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -220.926, z: 0}
 --- !u!1 &1756741611
 GameObject:
@@ -10957,7 +11041,7 @@ GameObject:
   - component: {fileID: 1756741613}
   - component: {fileID: 1756741612}
   m_Layer: 0
-  m_Name: Cube (17)
+  m_Name: Waypoint 009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10969,7 +11053,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756741611}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11005,7 +11089,7 @@ BoxCollider:
   m_GameObject: {fileID: 1756741611}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11023,11 +11107,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756741611}
   m_LocalRotation: {x: -0, y: -0.7121522, z: -0, w: 0.7020251}
-  m_LocalPosition: {x: 86.86, y: 3.37, z: 115.26}
+  m_LocalPosition: {x: -13.9, y: 21.062565, z: 89.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: -90.82101, z: 0}
 --- !u!1 &1798950501
 GameObject:
@@ -11041,7 +11125,7 @@ GameObject:
   - component: {fileID: 1798950503}
   - component: {fileID: 1798950502}
   m_Layer: 0
-  m_Name: Cube (50)
+  m_Name: Waypoint 046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11053,7 +11137,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1798950501}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11089,7 +11173,7 @@ BoxCollider:
   m_GameObject: {fileID: 1798950501}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11107,11 +11191,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1798950501}
   m_LocalRotation: {x: -0, y: -0.6994302, z: -0, w: 0.71470094}
-  m_LocalPosition: {x: -13.9, y: 1.76, z: -120.09}
+  m_LocalPosition: {x: -114, y: 19.452564, z: -141.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: -88.763, z: 0}
 --- !u!1 &1827168425
 GameObject:
@@ -11154,7 +11238,7 @@ GameObject:
   - component: {fileID: 1828941486}
   - component: {fileID: 1828941485}
   m_Layer: 0
-  m_Name: Cube (37)
+  m_Name: Waypoint 031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11166,7 +11250,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1828941484}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11202,7 +11286,7 @@ BoxCollider:
   m_GameObject: {fileID: 1828941484}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11220,11 +11304,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1828941484}
   m_LocalRotation: {x: -0, y: 0.007894422, z: -0, w: -0.9999688}
-  m_LocalPosition: {x: 5.4, y: 5.37, z: 96.9}
+  m_LocalPosition: {x: -70.49, y: 23.062565, z: 75.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: -360.905, z: 0}
 --- !u!1 &1836380588
 GameObject:
@@ -11238,7 +11322,7 @@ GameObject:
   - component: {fileID: 1836380590}
   - component: {fileID: 1836380589}
   m_Layer: 0
-  m_Name: Cube (48)
+  m_Name: Waypoint 043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11250,7 +11334,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836380588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11286,7 +11370,7 @@ BoxCollider:
   m_GameObject: {fileID: 1836380588}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11304,11 +11388,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836380588}
   m_LocalRotation: {x: -0, y: -0.98444283, z: -0, w: -0.17570561}
-  m_LocalPosition: {x: 16.12, y: 1.76, z: -133.71}
+  m_LocalPosition: {x: -80.81396, y: 19.452564, z: -153.99672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: -200.239, z: 0}
 --- !u!1 &1872029402
 GameObject:
@@ -11322,7 +11406,7 @@ GameObject:
   - component: {fileID: 1872029404}
   - component: {fileID: 1872029403}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Waypoint 023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11334,7 +11418,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1872029402}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11370,7 +11454,7 @@ BoxCollider:
   m_GameObject: {fileID: 1872029402}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11387,12 +11471,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1872029402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -64.18, y: 1.262, z: 25.06}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -163.23, y: 18.954563, z: 5.8132896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1873269294
 GameObject:
@@ -11406,7 +11490,7 @@ GameObject:
   - component: {fileID: 1873269296}
   - component: {fileID: 1873269295}
   m_Layer: 0
-  m_Name: Cube (46)
+  m_Name: Waypoint 041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11418,7 +11502,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1873269294}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11454,7 +11538,7 @@ BoxCollider:
   m_GameObject: {fileID: 1873269294}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11472,11 +11556,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1873269294}
   m_LocalRotation: {x: -0, y: -0.66156954, z: -0, w: -0.74988383}
-  m_LocalPosition: {x: 17.64, y: 3.52, z: -87.61}
+  m_LocalPosition: {x: -74.61395, y: 21.212564, z: -108.69672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: -277.161, z: 0}
 --- !u!1 &1897669281
 GameObject:
@@ -11490,7 +11574,7 @@ GameObject:
   - component: {fileID: 1897669283}
   - component: {fileID: 1897669282}
   m_Layer: 0
-  m_Name: Cube (31)
+  m_Name: Waypoint 025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11502,7 +11586,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1897669281}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11538,7 +11622,7 @@ BoxCollider:
   m_GameObject: {fileID: 1897669281}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11556,11 +11640,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1897669281}
   m_LocalRotation: {x: -0, y: -0.6012706, z: -0, w: -0.7990455}
-  m_LocalPosition: {x: -139.13, y: 7.19, z: 110.29}
+  m_LocalPosition: {x: -230.97395, y: 24.882565, z: 90.003296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: -286.078, z: 0}
 --- !u!1 &1905972193
 GameObject:
@@ -11586,7 +11670,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1905972193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 293.3, y: 126.3, z: 0}
+  m_LocalPosition: {x: 299.3, y: 126.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -11641,7 +11725,7 @@ GameObject:
   - component: {fileID: 1948967009}
   - component: {fileID: 1948967008}
   m_Layer: 0
-  m_Name: Cube (16)
+  m_Name: Waypoint 008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11653,7 +11737,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1948967007}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11689,7 +11773,7 @@ BoxCollider:
   m_GameObject: {fileID: 1948967007}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11707,11 +11791,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1948967007}
   m_LocalRotation: {x: -0, y: -0.79483443, z: -0, w: 0.60682636}
-  m_LocalPosition: {x: 87.87, y: 5.01, z: 89.77}
+  m_LocalPosition: {x: -11.92, y: 22.702564, z: 67.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: -105.27901, z: 0}
 --- !u!1 &1964459456
 GameObject:
@@ -11783,7 +11867,7 @@ GameObject:
   - component: {fileID: 1985389976}
   - component: {fileID: 1985389975}
   m_Layer: 0
-  m_Name: Cube (25)
+  m_Name: Waypoint 018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11795,7 +11879,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1985389974}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11831,7 +11915,7 @@ BoxCollider:
   m_GameObject: {fileID: 1985389974}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11849,11 +11933,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1985389974}
   m_LocalRotation: {x: -0, y: -0.999959, z: -0, w: 0.009060941}
-  m_LocalPosition: {x: -27.81, y: 5.43, z: 119.57}
+  m_LocalPosition: {x: -121.3, y: 23.122564, z: 96.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -178.962, z: 0}
 --- !u!1 &1990426348
 GameObject:
@@ -11867,7 +11951,7 @@ GameObject:
   - component: {fileID: 1990426350}
   - component: {fileID: 1990426349}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Waypoint 056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11879,7 +11963,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1990426348}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11915,7 +11999,7 @@ BoxCollider:
   m_GameObject: {fileID: 1990426348}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11932,12 +12016,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1990426348}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.04, y: 6.22, z: 33.37}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -90.40395, y: 24.1, z: 14.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019142776
 GameObject:
@@ -12116,6 +12200,175 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2072056949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2072056951}
+  - component: {fileID: 2072056950}
+  m_Layer: 0
+  m_Name: WaypointSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2072056950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2072056949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70852dc981465ea48bb527b9e33a87fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypointList:
+    circuit: {fileID: 2072056950}
+    items:
+    - {fileID: 1423981538}
+    - {fileID: 2078695259}
+    - {fileID: 763315992}
+    - {fileID: 1872029406}
+    - {fileID: 131603637}
+    - {fileID: 928549741}
+    - {fileID: 1990426352}
+    - {fileID: 1330027288}
+    - {fileID: 267300027}
+    - {fileID: 626698315}
+    - {fileID: 2130554475}
+    - {fileID: 146937262}
+    - {fileID: 355939792}
+    - {fileID: 1158885948}
+    - {fileID: 515111184}
+    - {fileID: 1392587850}
+    - {fileID: 1948967011}
+    - {fileID: 1756741615}
+    - {fileID: 2123044711}
+    - {fileID: 341625943}
+    - {fileID: 1378698251}
+    - {fileID: 1352505901}
+    - {fileID: 1734214478}
+    - {fileID: 347757979}
+    - {fileID: 252694479}
+    - {fileID: 1985389978}
+    - {fileID: 650613080}
+    - {fileID: 1056613473}
+    - {fileID: 426211926}
+    - {fileID: 1172282556}
+    - {fileID: 1185777043}
+    - {fileID: 1897669285}
+    - {fileID: 2080528302}
+    - {fileID: 230190528}
+    - {fileID: 373108331}
+    - {fileID: 59728901}
+    - {fileID: 973699157}
+    - {fileID: 1828941488}
+    - {fileID: 1199326055}
+    - {fileID: 1137971662}
+    - {fileID: 1100896307}
+    - {fileID: 219930013}
+    - {fileID: 1232455876}
+    - {fileID: 1224396596}
+    - {fileID: 1685119392}
+    - {fileID: 1621321938}
+    - {fileID: 1873269298}
+    - {fileID: 1425081574}
+    - {fileID: 1836380592}
+    - {fileID: 1183447967}
+    - {fileID: 1798950505}
+    - {fileID: 1594456525}
+    - {fileID: 1566050379}
+    - {fileID: 1542332185}
+    - {fileID: 1082034345}
+    - {fileID: 1328686816}
+    - {fileID: 1296832455}
+    - {fileID: 1266963206}
+    - {fileID: 623303706}
+    - {fileID: 1604284242}
+    - {fileID: 591310073}
+    - {fileID: 675696161}
+  smoothRoute: 1
+  editorVisualisationSubsteps: 100
+--- !u!4 &2072056951
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2072056949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 96.443954, y: -17.692564, z: 21.61671}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1423981538}
+  - {fileID: 2078695259}
+  - {fileID: 763315992}
+  - {fileID: 1872029406}
+  - {fileID: 131603637}
+  - {fileID: 928549741}
+  - {fileID: 1990426352}
+  - {fileID: 1330027288}
+  - {fileID: 267300027}
+  - {fileID: 626698315}
+  - {fileID: 2130554475}
+  - {fileID: 146937262}
+  - {fileID: 355939792}
+  - {fileID: 1158885948}
+  - {fileID: 515111184}
+  - {fileID: 1392587850}
+  - {fileID: 1948967011}
+  - {fileID: 1756741615}
+  - {fileID: 2123044711}
+  - {fileID: 341625943}
+  - {fileID: 1378698251}
+  - {fileID: 1352505901}
+  - {fileID: 1734214478}
+  - {fileID: 347757979}
+  - {fileID: 252694479}
+  - {fileID: 1985389978}
+  - {fileID: 650613080}
+  - {fileID: 1056613473}
+  - {fileID: 426211926}
+  - {fileID: 1172282556}
+  - {fileID: 1185777043}
+  - {fileID: 1897669285}
+  - {fileID: 2080528302}
+  - {fileID: 230190528}
+  - {fileID: 373108331}
+  - {fileID: 59728901}
+  - {fileID: 973699157}
+  - {fileID: 1828941488}
+  - {fileID: 1199326055}
+  - {fileID: 1137971662}
+  - {fileID: 1100896307}
+  - {fileID: 219930013}
+  - {fileID: 1232455876}
+  - {fileID: 1224396596}
+  - {fileID: 1685119392}
+  - {fileID: 1621321938}
+  - {fileID: 1873269298}
+  - {fileID: 1425081574}
+  - {fileID: 1836380592}
+  - {fileID: 1183447967}
+  - {fileID: 1798950505}
+  - {fileID: 1594456525}
+  - {fileID: 1566050379}
+  - {fileID: 1542332185}
+  - {fileID: 1082034345}
+  - {fileID: 1328686816}
+  - {fileID: 1296832455}
+  - {fileID: 1266963206}
+  - {fileID: 623303706}
+  - {fileID: 1604284242}
+  - {fileID: 591310073}
+  - {fileID: 675696161}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2078695255
 GameObject:
   m_ObjectHideFlags: 0
@@ -12128,7 +12381,7 @@ GameObject:
   - component: {fileID: 2078695257}
   - component: {fileID: 2078695256}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Waypoint 001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12140,7 +12393,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2078695255}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12176,7 +12429,7 @@ BoxCollider:
   m_GameObject: {fileID: 2078695255}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -12194,11 +12447,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2078695255}
   m_LocalRotation: {x: -0, y: 0.08020069, z: -0, w: 0.9967787}
-  m_LocalPosition: {x: -72.37, y: 1.62, z: 10.2}
+  m_LocalPosition: {x: -170.82, y: 19.312565, z: -11.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 9.200001, z: 0}
 --- !u!1001 &2078774626
 Prefab:
@@ -12258,7 +12511,7 @@ GameObject:
   - component: {fileID: 2080528300}
   - component: {fileID: 2080528299}
   m_Layer: 0
-  m_Name: Cube (32)
+  m_Name: Waypoint 026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12270,7 +12523,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2080528298}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12306,7 +12559,7 @@ BoxCollider:
   m_GameObject: {fileID: 2080528298}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -12324,11 +12577,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2080528298}
   m_LocalRotation: {x: -0, y: -0.3217845, z: -0, w: -0.946813}
-  m_LocalPosition: {x: -133.78, y: 7.19, z: 90.52}
+  m_LocalPosition: {x: -228.81395, y: 24.882565, z: 70.73329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: -322.458, z: 0}
 --- !u!1 &2119002249
 GameObject:
@@ -12354,7 +12607,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2119002249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 308, y: 59, z: 0}
+  m_LocalPosition: {x: 314, y: 59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 339293393}
@@ -12416,7 +12669,7 @@ GameObject:
   - component: {fileID: 2123044709}
   - component: {fileID: 2123044708}
   m_Layer: 0
-  m_Name: Cube (18)
+  m_Name: Waypoint 010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12428,7 +12681,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123044707}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12464,7 +12717,7 @@ BoxCollider:
   m_GameObject: {fileID: 2123044707}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -12482,11 +12735,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123044707}
   m_LocalRotation: {x: -0, y: -0.8063469, z: -0, w: 0.5914429}
-  m_LocalPosition: {x: 86.1, y: 4.49, z: 137.8}
+  m_LocalPosition: {x: -12.1, y: 22.182564, z: 115.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -107.481, z: 0}
 --- !u!1 &2130554471
 GameObject:
@@ -12500,7 +12753,7 @@ GameObject:
   - component: {fileID: 2130554473}
   - component: {fileID: 2130554472}
   m_Layer: 0
-  m_Name: Cube (10)
+  m_Name: Waypoint 002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12512,7 +12765,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130554471}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12548,7 +12801,7 @@ BoxCollider:
   m_GameObject: {fileID: 2130554471}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -12566,9 +12819,9 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130554471}
   m_LocalRotation: {x: -0, y: -0.20125268, z: -0, w: 0.9795394}
-  m_LocalPosition: {x: 107.76, y: 5.827, z: 33.74}
+  m_LocalPosition: {x: 11.316048, y: 23.519564, z: 12.123291}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 2072056951}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -23.220001, z: 0}
