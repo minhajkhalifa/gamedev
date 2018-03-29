@@ -16,6 +16,7 @@ public class LapTimeController : MonoBehaviour
     public Text startTimer;
     public int countDown = 3;
     public GameObject AICar;
+    public Text bestLap;
 
     public static bool isNewLap = false;
 
@@ -33,6 +34,16 @@ public class LapTimeController : MonoBehaviour
         lapTiming.SetActive(false);
         startTimer.text = countDown.ToString();
         StartCoroutine(Countdown(countDown));
+
+        if (PlayerPrefs.HasKey("bestLap"))
+        {
+            string bestLapScore = PlayerPrefs.GetString("bestLap");
+            bestLap.text = bestLapScore;
+        }
+        else
+        {
+            bestLap.text = "00:00:00";
+        }
     }
 
     private IEnumerator Countdown(int seconds)

@@ -39,10 +39,11 @@ public class StartTrigger : MonoBehaviour
                 TimeSpan usersLap = TimeSpan.Parse(lapTime.text);
                 TimeSpan bestLapTime = TimeSpan.Parse(bestLapScore.text);
 
-                if (usersLap < bestLapTime || bestLapScore.text == "00:00:0")
+                if (usersLap < bestLapTime || bestLapScore.text == "00:00:00")
                 {
-                    LapTimeController.isNewLap = true;
                     bestLapScore.text = lapTime.text;
+                    PlayerPrefs.SetString("bestLap", bestLapScore.text);
+                    LapTimeController.isNewLap = true;
                 }
             }
         }
