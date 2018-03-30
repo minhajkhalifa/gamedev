@@ -36,15 +36,20 @@ public class StartTrigger : MonoBehaviour
                 print("Current Lap Player:" + PlayerLapCounter);
                 lapNumber.text = PlayerLapCounter.ToString() + "/2";
 
-                TimeSpan usersLap = TimeSpan.Parse(lapTime.text);
-                TimeSpan bestLapTime = TimeSpan.Parse(bestLapScore.text);
+                TimeSpan usersLap;
+                TimeSpan.TryParse(lapTime.text, out usersLap);
+
+
+                TimeSpan bestLapTime; 
+                TimeSpan.TryParse(bestLapScore.text, out bestLapTime);
 
                 if (usersLap < bestLapTime || bestLapScore.text == "00:00:00")
                 {
                     bestLapScore.text = lapTime.text;
                     PlayerPrefs.SetString("bestLap", bestLapScore.text);
-                    LapTimeController.isNewLap = true;
+                    
                 }
+                LapTimeController.isNewLap = true;
             }
         }
 
