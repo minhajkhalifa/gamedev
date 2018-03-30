@@ -13,8 +13,6 @@ public class StartTrigger : MonoBehaviour
     public Text lapTime;
     public Text bestLapScore;
     public Text lapNumber;
-    //int PlayerLap = PlayerLapCounter;
-    //int AILap = AILapCounter;
 
     public GameObject playerCar;
     public GameObject aiCar;

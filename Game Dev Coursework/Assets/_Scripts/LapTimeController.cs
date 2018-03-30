@@ -10,7 +10,7 @@ public class LapTimeController : MonoBehaviour
 
     public GameObject carControl;
     public GameObject carControl2;
-    public GameObject lapTiming;
+    //public GameObject lapTiming;
     public Text lapTime;
     bool isGamePlaying;
     public Text startTimer;
@@ -31,7 +31,7 @@ public class LapTimeController : MonoBehaviour
         CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
         AICarController.enabled = false;
         //carControl2.SetActive(false);
-        lapTiming.SetActive(false);
+        //lapTiming.SetActive(false);
         startTimer.text = countDown.ToString();
         StartCoroutine(Countdown(countDown));
 
@@ -69,17 +69,11 @@ public class LapTimeController : MonoBehaviour
     {
         if (isGamePlaying)
         {
-            startTimer.text = "";
-            CarController carController = carControl.GetComponent<CarController>();
-            CarController car2Controller = carControl2.GetComponent<CarController>();
-            carController.enabled = true;
-            car2Controller.enabled = true;
-            CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
-            AICarController.enabled = true;
-            lapTiming.SetActive(true);
-            int minutes = Mathf.FloorToInt(Time.timeSinceLevelLoad / 60);
-            float seconds = Mathf.FloorToInt(Time.timeSinceLevelLoad % 60);
-            float milliSeconds = Mathf.FloorToInt((Time.timeSinceLevelLoad * 10) % 99);
+            ReEnableControls();
+            
+            int minutes = Mathf.FloorToInt(Time.time / 60);
+            float seconds = Mathf.FloorToInt(Time.time % 60);
+            float milliSeconds = Mathf.FloorToInt((Time.time * 10) % 99);
 
             if (isNewLap == false)
             {
@@ -87,13 +81,24 @@ public class LapTimeController : MonoBehaviour
             }
             else
             {
-                int newMinutes = Mathf.FloorToInt(Time.timeSinceLevelLoad / 60);
-                float newSeconds = Mathf.FloorToInt(Time.timeSinceLevelLoad % 60);
-                float newMilliSeconds = Mathf.FloorToInt((Time.timeSinceLevelLoad * 10) % 99);
+                int newMinutes = Mathf.FloorToInt(Time.time / 60);
+                float newSeconds = Mathf.FloorToInt(Time.time % 60);
+                float newMilliSeconds = Mathf.FloorToInt((Time.time * 10) % 99);
 
                 lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", newMinutes, newSeconds, newMilliSeconds);
             }
-            
         }
+    }
+
+    private void ReEnableControls()
+    {
+        startTimer.text = "";
+        CarController carController = carControl.GetComponent<CarController>();
+        CarController car2Controller = carControl2.GetComponent<CarController>();
+        carController.enabled = true;
+        car2Controller.enabled = true;
+        CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
+        AICarController.enabled = true;
+        //lapTiming.SetActive(true);
     }
 }

@@ -12,6 +12,11 @@ public class MainMenuController : MonoBehaviour {
         audio.Play();
     }
 
+    public void ResetHandlerPlay()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     public void ButtonHandlerPlay()
     {
         SceneManager.LoadSceneAsync(Globals.PLAYER_TYPE_SCENE);

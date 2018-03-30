@@ -988,7 +988,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carControl: {fileID: 376594941}
   carControl2: {fileID: 677556577}
-  lapTiming: {fileID: 974231813}
   lapTime: {fileID: 974231815}
   startTimer: {fileID: 1125334955}
   countDown: 3
@@ -3525,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 00:00:00
 --- !u!222 &797812064
 CanvasRenderer:
   m_ObjectHideFlags: 0
