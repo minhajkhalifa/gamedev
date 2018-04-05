@@ -10,7 +10,6 @@ public class LapTimeController : MonoBehaviour
 
     public GameObject carControl;
     public GameObject carControl2;
-    //public GameObject lapTiming;
     public Text lapTime;
     bool isGamePlaying;
     public Text startTimer;
@@ -18,20 +17,30 @@ public class LapTimeController : MonoBehaviour
     public GameObject AICar;
     public Text bestLap;
 
+    private float timer = 0f;
+
     public static bool isNewLap = false;
 
     // Use this for initialization
     void Start()
     {
-        //carControl.SetActive(false);
-        CarController carController = carControl.GetComponent<CarController>();
-        CarController car2Controller = carControl2.GetComponent<CarController>();
-        carController.enabled = false;
+        CarUserControl carController = carControl.GetComponent<CarUserControl>();
+        CarUserControl car2Controller = carControl2.GetComponent<CarUserControl>();
+        if (carController != null)
+        {
+            carController.enabled = false;
+        }
+
+        CarUserControl1 carUserControl1 = carControl.GetComponent<CarUserControl1>();
+        if (carUserControl1 != null)
+        {
+            carUserControl1.enabled = false;
+        }
+
         car2Controller.enabled = false;
         CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
         AICarController.enabled = false;
-        //carControl2.SetActive(false);
-        //lapTiming.SetActive(false);
+
         startTimer.text = countDown.ToString();
         StartCoroutine(Countdown(countDown));
 
@@ -42,7 +51,7 @@ public class LapTimeController : MonoBehaviour
         }
         else
         {
-            bestLap.text = "00:00:00";
+            bestLap.text = "00:00:000";
         }
     }
 
@@ -70,35 +79,41 @@ public class LapTimeController : MonoBehaviour
         if (isGamePlaying)
         {
             ReEnableControls();
-            
-            int minutes = Mathf.FloorToInt(Time.time / 60);
-            float seconds = Mathf.FloorToInt(Time.time % 60);
-            float milliSeconds = Mathf.FloorToInt((Time.time * 10) % 99);
 
-            if (isNewLap == false)
+            if (isNewLap == true)
             {
-                lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
+                timer = 0f;
+                isNewLap = false;
             }
-            else
-            {
-                int newMinutes = Mathf.FloorToInt(Time.time / 60);
-                float newSeconds = Mathf.FloorToInt(Time.time % 60);
-                float newMilliSeconds = Mathf.FloorToInt((Time.time * 10) % 99);
 
-                lapTime.text = string.Format("{0:00}:{1:00}:{2:00}", newMinutes, newSeconds, newMilliSeconds);
-            }
+            timer += Time.deltaTime;
+
+            float minuteLap = Mathf.FloorToInt(timer / 60f);
+            float secondLap = Mathf.FloorToInt(timer - minuteLap * 60f);
+            float milliSecondLap = Mathf.FloorToInt(timer * 1000f) % 1000;
+
+            lapTime.text = string.Format("{0:00}:{1:00}:{2:000}", minuteLap, secondLap, milliSecondLap);
         }
     }
 
     private void ReEnableControls()
     {
         startTimer.text = "";
-        CarController carController = carControl.GetComponent<CarController>();
-        CarController car2Controller = carControl2.GetComponent<CarController>();
-        carController.enabled = true;
+        CarUserControl carController = carControl.GetComponent<CarUserControl>();
+        CarUserControl car2Controller = carControl2.GetComponent<CarUserControl>();
+        if (carController != null)
+        {
+            carController.enabled = true;
+        }
+
+        CarUserControl1 carUserControl1 = carControl.GetComponent<CarUserControl1>();
+        if (carUserControl1 != null)
+        {
+            carUserControl1.enabled = true;
+        }
+        
         car2Controller.enabled = true;
         CarAIControl AICarController = AICar.GetComponent<CarAIControl>();
         AICarController.enabled = true;
-        //lapTiming.SetActive(true);
     }
 }

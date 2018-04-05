@@ -19,13 +19,16 @@ public class StartTrigger : MonoBehaviour
 
     private void Start()
     {
+        PlayerLapCounter = 1;
+        AILapCounter = 1;
+
         playerCar = PlayerCarChoice.playerCar;
         lapNumber.text = PlayerLapCounter.ToString() + "/2";
     }
 
     void OnTriggerEnter(Collider other)
     {
-        //PlayerBike LapCounter
+        //Player LapCounter
         if (MidwayTrigger.midWayPlayer == PlayerLapCounter)
         {
             if (other.gameObject.tag == "Player")
@@ -37,11 +40,10 @@ public class StartTrigger : MonoBehaviour
                 TimeSpan usersLap;
                 TimeSpan.TryParse(lapTime.text, out usersLap);
 
-
                 TimeSpan bestLapTime; 
                 TimeSpan.TryParse(bestLapScore.text, out bestLapTime);
 
-                if (usersLap < bestLapTime || bestLapScore.text == "00:00:00")
+                if (usersLap < bestLapTime || bestLapScore.text == "00:00:000")
                 {
                     bestLapScore.text = lapTime.text;
                     PlayerPrefs.SetString("bestLap", bestLapScore.text);
@@ -51,7 +53,7 @@ public class StartTrigger : MonoBehaviour
             }
         }
 
-        //AIBike LapCounter
+        //AI LapCounter
         if (MidwayTrigger.midWayAI == AILapCounter)
         {
             if (other.gameObject.tag == "AI")
@@ -61,14 +63,14 @@ public class StartTrigger : MonoBehaviour
             }
         }
 
-        //detects who won
+        //Detect who won
         if (MidwayTrigger.midWayPlayer == 2 && PlayerLapCounter == 3)
         {
             SceneManager.LoadSceneAsync(Globals.MENU_SCENE);
         }
-        else
+        else if (MidwayTrigger.midWayAI == 2 && AILapCounter == 3)
         {
-            //
+            SceneManager.LoadSceneAsync(Globals.MENU_SCENE);
         }
     }
 }

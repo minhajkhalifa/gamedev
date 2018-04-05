@@ -9,4 +9,5 @@ public class Globals : MonoBehaviour {
     public const string HELP_SCENE = "Help";
     public const string PLAYER_TYPE_SCENE = "PlayerTypeMenu";
     public const string GAME_SCENE_MULTIPLAYER = "RaceTrackMultiplayer";
+    public const string GAME_SCENE_SPLITSCREEN = "RaceTrackSplitScreen";
 }

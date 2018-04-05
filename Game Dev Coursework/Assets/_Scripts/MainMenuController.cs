@@ -37,6 +37,11 @@ public class MainMenuController : MonoBehaviour {
         SceneManager.LoadSceneAsync(Globals.GAME_SCENE_MULTIPLAYER);
     }
 
+    public void ButtonHandlerSplitScreen()
+    {
+        SceneManager.LoadSceneAsync(Globals.GAME_SCENE_SPLITSCREEN);
+    }
+
     public void ButtonHandlerExit()
     {
         Debug.Log("Application has quit");
