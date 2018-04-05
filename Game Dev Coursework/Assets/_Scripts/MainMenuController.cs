@@ -34,7 +34,7 @@ public class MainMenuController : MonoBehaviour {
 
     public void ButtonHandlerMultiPlayer()
     {
-        //TODO;
+        SceneManager.LoadSceneAsync(Globals.GAME_SCENE_MULTIPLAYER);
     }
 
     public void ButtonHandlerExit()

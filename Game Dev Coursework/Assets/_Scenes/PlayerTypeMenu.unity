@@ -195,8 +195,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 109738603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 379.5, y: 163, z: 0}
-  m_LocalScale: {x: 0.94875, y: 0.94875, z: 0.94875}
+  m_LocalPosition: {x: 411.5, y: 163, z: 0}
+  m_LocalScale: {x: 1.02875, y: 1.02875, z: 1.02875}
   m_Children:
   - {fileID: 191452054}
   m_Father: {fileID: 0}
@@ -951,12 +951,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 191452053}
-        m_MethodName: 
+      - m_Target: {fileID: 191452057}
+        m_MethodName: ButtonHandlerMultiPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
