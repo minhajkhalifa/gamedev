@@ -9,6 +9,7 @@ public class PlayerCarChoice : MonoBehaviour
     public int carChoice;
 
     public static GameObject playerCar;
+
     // Use this for initialization
     void Start()
     {
@@ -23,6 +24,5 @@ public class PlayerCarChoice : MonoBehaviour
             car2.SetActive(true);
             playerCar = car2;
         }
-
     }
 }

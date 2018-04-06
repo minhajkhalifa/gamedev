@@ -21,9 +21,13 @@ public class StartTrigger : MonoBehaviour
     {
         PlayerLapCounter = 1;
         AILapCounter = 1;
-
-        playerCar = PlayerCarChoice.playerCar;
+        
         lapNumber.text = PlayerLapCounter.ToString() + "/2";
+    }
+
+    private void Update()
+    {
+        playerCar = PlayerCarChoice.playerCar;
     }
 
     void OnTriggerEnter(Collider other)
