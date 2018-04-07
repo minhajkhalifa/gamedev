@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 181947405}
   - component: {fileID: 181947404}
   m_Layer: 5
-  m_Name: LapNumberCounter
+  m_Name: LapNumberCounter1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -758,7 +758,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 206761638}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5da49ba4f6810b4ba4c058ca876beae, type: 3}
+  m_Script: {fileID: 11500000, guid: 948b447cfa84ae34893f07e73a6fe2b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &206761641
@@ -3939,6 +3939,22 @@ Prefab:
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1484469771383930, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533504953888944, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791346143149304, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711245668956264, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 737bdf28bed3b6f4caf79a7ddba3c17e, type: 2}
   m_IsPrefabParent: 0
@@ -4330,7 +4346,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:00:00
+  m_Text: 00:00:000
 --- !u!222 &797812064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5288,7 +5304,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:00:00
+  m_Text: 00:00:000
 --- !u!222 &974231816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5804,7 +5820,7 @@ GameObject:
   - component: {fileID: 1094319754}
   - component: {fileID: 1094319753}
   m_Layer: 5
-  m_Name: BestScoreTimer
+  m_Name: BestScoreTimer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5860,7 +5876,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:00:00
+  m_Text: 00:00:000
 --- !u!222 &1094319754
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16083,7 +16099,7 @@ GameObject:
   - component: {fileID: 1627980120}
   - component: {fileID: 1627980119}
   m_Layer: 5
-  m_Name: LapTimer
+  m_Name: LapTimer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16139,7 +16155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:00:00
+  m_Text: 00:00:000
 --- !u!222 &1627980120
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16541,64 +16557,6 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_Enabled: 1
---- !u!1 &1699397415
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1699397416}
-  - component: {fileID: 1699397418}
-  - component: {fileID: 1699397417}
-  m_Layer: 0
-  m_Name: StartTrigger (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1699397416
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699397415}
-  m_LocalRotation: {x: -0, y: -0.73003453, z: -0, w: 0.68341035}
-  m_LocalPosition: {x: -12646.999, y: -233.99998, z: -3004}
-  m_LocalScale: {x: 100.000046, y: 100, z: 100.000046}
-  m_Children: []
-  m_Father: {fileID: 1230479626}
-  m_RootOrder: 816
-  m_LocalEulerAnglesHint: {x: 0, y: -93.77901, z: 0}
---- !u!114 &1699397417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699397415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 549a96adf3349604993b44658a428a59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lapTime: {fileID: 1627980119}
-  bestLapScore: {fileID: 1094319753}
-  lapNumber: {fileID: 181947404}
-  playerCar: {fileID: 0}
-  aiCar: {fileID: 656962678}
---- !u!65 &1699397418
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699397415}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.2496439, y: 8.437569, z: 13.658842}
-  m_Center: {x: 0.20145518, y: 3.7187843, z: 2.9332008}
 --- !u!1 &1727090806
 GameObject:
   m_ObjectHideFlags: 0
@@ -18095,7 +18053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964459457}
   - component: {fileID: 1964459459}
-  - component: {fileID: 1964459458}
+  - component: {fileID: 1964459460}
   m_Layer: 0
   m_Name: StartTrigger
   m_TagString: Untagged
@@ -18116,22 +18074,6 @@ Transform:
   m_Father: {fileID: 1230479626}
   m_RootOrder: 814
   m_LocalEulerAnglesHint: {x: 0, y: -93.77901, z: 0}
---- !u!114 &1964459458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1964459456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 549a96adf3349604993b44658a428a59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lapTime: {fileID: 974231815}
-  bestLapScore: {fileID: 797812063}
-  lapNumber: {fileID: 1727090808}
-  playerCar: {fileID: 0}
-  aiCar: {fileID: 656962678}
 --- !u!65 &1964459459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18144,6 +18086,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2496439, y: 8.437569, z: 13.658842}
   m_Center: {x: 0.20145518, y: 3.7187843, z: 2.9332008}
+--- !u!114 &1964459460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964459456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a583b783fdf5f41ad07c46637f964f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lapTime: {fileID: 974231815}
+  bestLapScore: {fileID: 797812063}
+  lapNumber: {fileID: 1727090808}
+  lapTimeP2: {fileID: 1627980119}
+  bestLapScoreP2: {fileID: 1094319753}
+  lapNumberP2: {fileID: 181947404}
 --- !u!1 &1985389974
 GameObject:
   m_ObjectHideFlags: 0
