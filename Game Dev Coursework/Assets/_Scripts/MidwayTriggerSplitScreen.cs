@@ -26,7 +26,7 @@ public class MidwayTriggerSplitScreen : MonoBehaviour
             //if (midWayPlayer2 > StartTriggerSplitScreen.Player2LapCounter)
             //{
             midWayPlayer2 = StartTriggerSplitScreen.Player2LapCounter;
-            print("Halfway Lap AI:" + midWayPlayer2);
+            print("Halfway Lap Player 2:" + midWayPlayer2);
             //}
         }
     }

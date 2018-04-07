@@ -18,6 +18,9 @@ public class StartTriggerSplitScreen : MonoBehaviour
     public Text bestLapScoreP2;
     public Text lapNumberP2;
 
+    public static bool isPlayer1;
+    public static bool isPlayer2;
+
     //public GameObject playerCar;
     //public GameObject aiCar;
 
@@ -58,7 +61,9 @@ public class StartTriggerSplitScreen : MonoBehaviour
                     PlayerPrefs.SetString("bestLap", bestLapScore.text);
 
                 }
-                LapTimeController.isNewLap = true;
+
+                isPlayer1 = true;
+                LapTimeControllerSplitScreen.isNewLap = true;
             }
         }
 
@@ -83,7 +88,9 @@ public class StartTriggerSplitScreen : MonoBehaviour
                     PlayerPrefs.SetString("bestLap", bestLapScoreP2.text);
 
                 }
-                LapTimeController.isNewLap = true;
+
+                isPlayer2 = true;
+                LapTimeControllerSplitScreen.isNewLap = true;
             }
         }
 
