@@ -21,12 +21,12 @@ public class MidwayTrigger : MonoBehaviour
 
         if (other.gameObject.tag == "AI")
         {
-            midWayAI++;
+            //midWayAI++;
             print("Halfway Lap AI:" + midWayAI);
-            if (midWayAI > StartTrigger.AILapCounter)
-            {
+            //if (midWayAI > StartTrigger.AILapCounter)
+            //{
                 midWayAI = StartTrigger.AILapCounter;
-            }
+            //}
         }
     }
 }
