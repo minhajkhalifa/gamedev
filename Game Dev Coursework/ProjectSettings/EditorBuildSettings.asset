@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/RaceTrackNew.unity
     guid: 63775a4c787812e49bcc714d5b0f159c
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/RaceTrackMultiplayer.unity
     guid: 874e1dc4095943c4bae7d9db934cb7a2
   - enabled: 1
