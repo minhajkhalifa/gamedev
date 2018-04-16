@@ -2,28 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RespawnController : MonoBehaviour {
+public class RespawnController : MonoBehaviour
+{
     public Transform[] waypointRespawn;
     private GameObject car;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        //car = PlayerCarChoice.playerCar;
+
+    // Update is called once per frame
+    void Update()
+    {
+        car = PlayerCarChoice.playerCar;
 
         if (Input.GetMouseButtonDown(0))
         {
-            foreach (var item in waypointRespawn)
-            {
-                car = PlayerCarChoice.playerCar;
-                Destroy(car);
-                Instantiate(car, item.transform);
-            }
+            //Destroy(car);
+            //car = PlayerCarChoice.playerCar;
+            //Instantiate(car, waypointRespawn[waypointIterator].transform);
+            car.transform.position = waypointRespawn[RespawnCounter.waypointIterator].transform.position;
         }
-        
-	}
+
+    }
 }
