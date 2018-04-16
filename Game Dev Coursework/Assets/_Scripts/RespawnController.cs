@@ -6,10 +6,12 @@ public class RespawnController : MonoBehaviour
 {
     public Transform[] waypointRespawn;
     private GameObject car;
+    internal static Transform[] waypoints;
 
     // Use this for initialization
     void Start()
     {
+        waypoints = waypointRespawn;
     }
 
 
@@ -23,7 +25,7 @@ public class RespawnController : MonoBehaviour
             //Destroy(car);
             //car = PlayerCarChoice.playerCar;
             //Instantiate(car, waypointRespawn[waypointIterator].transform);
-            car.transform.position = waypointRespawn[RespawnCounter.waypointIterator].transform.position;
+            car.transform.position = waypoints[RespawnCounter.waypointIterator].transform.position;
         }
 
     }
