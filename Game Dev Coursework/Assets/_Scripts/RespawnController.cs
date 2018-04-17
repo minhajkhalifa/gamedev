@@ -19,7 +19,7 @@ public class RespawnController : MonoBehaviour
     {
         car = PlayerCarChoice.playerCar;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             car.transform.position = RespawnCounter.boxTransform.position;
         }
