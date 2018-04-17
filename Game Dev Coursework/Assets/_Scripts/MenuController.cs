@@ -18,6 +18,10 @@ public class MenuController : MonoBehaviour {
         {
             panel.SetActive(true);
         }
+        else if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SceneManager.LoadSceneAsync(Globals.MENU_SCENE);
+        }
 	}
 
     public void ResumeGame()
