@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RespawnCounter : MonoBehaviour
 {
-    internal static int waypointIterator = 0;
+    //internal static int waypointIterator = 0;
+    internal static Transform boxTransform;
+    private GameObject car;
 
     // Use this for initialization
     void Start()
@@ -13,20 +15,9 @@ public class RespawnCounter : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
-        //for (int i = 0; i < RespawnController.waypoints.Length; i++)
-        //{
-        if (other.tag == "Player" && RespawnController.waypoints[waypointIterator].name == ("RespawnPoint" + waypointIterator.ToString()))
+        if (other.tag == "Player")
         {
-            waypointIterator++;
-            //i++;
+            boxTransform = transform;
         }
-        //}
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

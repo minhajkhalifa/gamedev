@@ -16,6 +16,8 @@ public class LapTimeController : MonoBehaviour
     public int countDown = 3;
     public GameObject AICar;
     public Text bestLap;
+    public AudioSource countdownAudio;
+    public AudioSource gameAudio;
 
     private float timer = 0f;
 
@@ -24,6 +26,8 @@ public class LapTimeController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        countdownAudio.Play();
+
         CarUserControl carController = carControl.GetComponent<CarUserControl>();
         CarUserControl car2Controller = carControl2.GetComponent<CarUserControl>();
         if (carController != null)
@@ -57,12 +61,13 @@ public class LapTimeController : MonoBehaviour
 
     private IEnumerator Countdown(int seconds)
     {
+        yield return new WaitForSeconds(1.0f);
         for (int i = seconds; i >= 0; i--)
         {
             if (i > 0)
             {
                 startTimer.text = i.ToString();
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(0.75f);
             }
             else if (i <= 0)
             {
@@ -71,6 +76,7 @@ public class LapTimeController : MonoBehaviour
                 isGamePlaying = true;
             }
         }
+        gameAudio.Play();
     }
 
     // Update is called once per frame

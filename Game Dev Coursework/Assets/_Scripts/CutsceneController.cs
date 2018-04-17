@@ -28,7 +28,7 @@ public class CutsceneController : MonoBehaviour
         //cam.DORotate(cam.position, 10);
         while (cameraAngle > 0f)
         {
-            float angle = 200 * Time.deltaTime;
+            float angle = 100 * Time.deltaTime;
             cam.RotateAround(PlayerCarChoice.playerCar.transform.position, Vector3.up, angle);
             cameraAngle -= angle;
             yield return new WaitForSeconds(0.01f);

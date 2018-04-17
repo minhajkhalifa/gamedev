@@ -19,7 +19,7 @@ public class CarSpeedDisplay : MonoBehaviour {
         playerCar = PlayerCarChoice.playerCar;
         carRB = playerCar.GetComponent<Rigidbody>();
 
-        var mph = carRB.velocity.magnitude * 2.237;
+        double mph = carRB.velocity.magnitude * 2.237;
 
         carSpeed.text = string.Format("{0}", mph.ToString("N0"));
     }

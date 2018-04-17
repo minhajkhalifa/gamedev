@@ -17,6 +17,8 @@ public class LapTimeControllerSplitScreen : MonoBehaviour
     public GameObject AICar;
     public Text bestLapPlayer1;
     public Text bestLapPlayer2;
+    public AudioSource countdownAudio;
+    public AudioSource gameAudio;
 
     private float timer = 0f;
     private float timer2 = 0f;
@@ -26,6 +28,8 @@ public class LapTimeControllerSplitScreen : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        countdownAudio.Play();
+
         CarUserControl carController = carControl.GetComponent<CarUserControl>();
         CarUserControl car2Controller = carControl2.GetComponent<CarUserControl>();
         if (carController != null)
@@ -78,6 +82,7 @@ public class LapTimeControllerSplitScreen : MonoBehaviour
                 isGamePlaying = true;
             }
         }
+        gameAudio.Play();
     }
 
     // Update is called once per frame

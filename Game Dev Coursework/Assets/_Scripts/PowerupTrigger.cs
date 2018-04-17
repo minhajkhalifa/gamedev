@@ -5,9 +5,11 @@ using UnityEngine;
 public class PowerupTrigger : MonoBehaviour {
 
     public GameObject powerup;
+    public AudioSource powerupAudio;
 
     private void OnTriggerEnter(Collider other)
     {
+        powerupAudio.Play();
         var carRB = other.transform.parent.parent.GetComponent<Rigidbody>();
         var vehicle = other.transform.parent.parent;
         vehicle.GetComponent<Rigidbody>().AddRelativeForce(transform.forward * 500, ForceMode.Acceleration);

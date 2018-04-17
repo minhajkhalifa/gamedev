@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class RespawnController : MonoBehaviour
 {
-    public Transform[] waypointRespawn;
+    //public Transform[] waypointRespawn;
     private GameObject car;
-    internal static Transform[] waypoints;
+    //internal static Transform[] waypoints;
 
     // Use this for initialization
     void Start()
     {
-        waypoints = waypointRespawn;
     }
 
 
@@ -22,10 +21,7 @@ public class RespawnController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            //Destroy(car);
-            //car = PlayerCarChoice.playerCar;
-            //Instantiate(car, waypointRespawn[waypointIterator].transform);
-            car.transform.position = waypoints[RespawnCounter.waypointIterator].transform.position;
+            car.transform.position = RespawnCounter.boxTransform.position;
         }
 
     }
