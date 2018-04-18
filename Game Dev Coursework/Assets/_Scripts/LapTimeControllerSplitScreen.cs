@@ -96,11 +96,13 @@ public class LapTimeControllerSplitScreen : MonoBehaviour
             {
                 timer = 0f;
                 isNewLap = false;
+                StartTriggerSplitScreen.isPlayer1 = false;
             }
             else if (isNewLap == true && StartTriggerSplitScreen.isPlayer2 == true)
             {
                 timer2 = 0f;
                 isNewLap = false;
+                StartTriggerSplitScreen.isPlayer2 = false;
             }
 
             timer += Time.deltaTime;
